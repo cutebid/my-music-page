@@ -1,0 +1,109 @@
+*        {
+	       box-sizing: border-box;
+         }
+body     {
+	       font-family: sans-serif;
+         }
+/*@media screen and (max-width: 700px) {
+	              h3 {float: right;}    
+                 }*/
+
+.container {
+	        display: flex;
+            flex-flow: column nowrap;
+            height: 700px
+           }
+.section    { 
+	         flex: 85%;
+             background-color: rgb(7, 103, 163);
+             color: white;
+            }
+.footer  { 
+	        flex: 20%;
+	        background-color: black;
+         }
+.formpage {
+            background-color: black;
+            color: white;
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            right: 300px;
+            margin-top: 50px;
+          }
+input[type=text], input[type=password] {
+	                  border: 1px inset blue;
+	                  padding: 5px;
+	                  margin:10px 25px;
+	                  width: 200px;
+	                  outline: none;
+	                  background-color: black;
+	                  border-radius: 15px;
+                     }
+label    {
+	       padding: 5px;
+	       margin: 15px 20px;
+         }
+form     {margin-top: 20px;}
+.btn     {
+	      padding: 5px;
+	      margin: 20px 25px;
+	      width: 210px;
+	      background-color: blue;
+	      outline: none;
+	      border: none;
+	      border-radius: 20px;
+	      color: white;
+         }
+.btn:hover  {background-color: rgb(255, 26, 140);}
+.inp:focus  {
+	          background-color: white;
+              color: black;
+            }
+
+img      {
+	        margin:10px 0px 0px 200px;
+            border-radius: 30px
+         }
+.p1       { 
+	        float: right;
+            position: absolute;
+            top: 20px;
+            left: 260px;
+           }
+.p2     {
+	      position: absolute;
+	      top: 20px;
+	      right: 500px;
+        }   
+.p3     {
+	     position: absolute;
+	     top: 20px;
+	     right: 350px;
+        } 
+h3      {
+	      position: absolute;
+	      top: 200px;
+	      left: 200px;
+	      font-size: 40px;
+	      font-weight: bold;
+        } 
+h3 b:first-child  {color: rgb(255, 26, 140);}
+.p4     {
+	       position: absolute;
+	       left: 220px;
+        }   
+.p5     { 
+	       position: absolute;
+	       left: 500px;
+        }  
+.p6     {
+	     position: absolute;
+	     right: 350px
+	    } 
+.p7     {
+	      position: absolute;
+	      right: 200px;
+        }
+ .footer a {color: white;}
+ a:hover p {background-color: rgb(255, 26, 140);}
